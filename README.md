@@ -42,7 +42,7 @@ Scalar value (1) for a winning rally
 Scalar value (-1) for a losing rally  
 
 **Episode termination:**<br />
-Player reaches a score of 21
+Player reaches a score of 21  
 Episode length > 400000  
 
 **Solved Requirement:**<br />
