@@ -26,25 +26,27 @@ Loading the saved model in 'tf' is the recommended option. After finishing the t
 
 # OpenAI Atari Pong-v4
 **Actions:**<br />
-0 - Push cart to the left    
-1 - Push cart to the right
+0 - No action  
+1 - No action
+2 - Racket go up  
+3 - Racket go down  
+4 - Racket go up    
+5 - Racket go down  
+Action 2 & 4, 3 & 5 - Same movement with different amplitudes
 
 **States:**<br />
-0 - Cart position  
-1 - Cart velocity  
-2 - Pole angle  
-3 - Pole velocity at tip
+Stack of 4 (80, 80) cropped grey-scaled images (6400 pixels)  
 
 **Rewards:**<br />
-Scalar value (1) for every step taken
+Scalar value (1) for a winning rally  
+Scalar value (-1) for a losing rally  
 
 **Episode termination:**<br />  
-12° < Pole angle (State 2) < -12°  
-2.4 < Cart position (State 0) < -2.4  
-Episode length > 200  
+Player reaches a score of 21
+Episode length > 400000  
 
 **Solved Requirement:**<br />
-Average reward of 195.0 over 100 consecutive trials
+Average score of 17 over 100 consecutive trials
 
 # Deep Q-Network (DQN)
 <p align="center">
