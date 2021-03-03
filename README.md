@@ -62,7 +62,7 @@ Average reward of 195.0 over 100 consecutive trials
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
 | Batch size | 32 |
-| TargetNet update rate (steps) | 100 |
+| TargetNet update rate (steps) | 1000 |
 | Actions (Pong-v4 env) | 6 |
 | States (Pong-v4 env) | (4, 80, 80) |
 
