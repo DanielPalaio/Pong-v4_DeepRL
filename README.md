@@ -27,7 +27,7 @@ Loading the saved model in 'tf' is the recommended option. After finishing the t
 # OpenAI Atari Pong-v4
 **Actions:**<br />
 0 - No action  
-1 - No action
+1 - No action  
 2 - Racket go up  
 3 - Racket go down  
 4 - Racket go up    
