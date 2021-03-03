@@ -32,7 +32,7 @@ Loading the saved model in 'tf' is the recommended option. After finishing the t
 3 - Racket go down  
 4 - Racket go up    
 5 - Racket go down  
-Action 2 & 4, 3 & 5 - Same movement with different amplitudes
+Actions (2 & 4) and (3 & 5) - Same movement with different amplitudes
 
 **States:**<br />
 Stack of 4 (80, 80) cropped grey-scaled images (6400 pixels)  
@@ -41,7 +41,7 @@ Stack of 4 (80, 80) cropped grey-scaled images (6400 pixels)
 Scalar value (1) for a winning rally  
 Scalar value (-1) for a losing rally  
 
-**Episode termination:**<br />  
+**Episode termination:**<br />
 Player reaches a score of 21
 Episode length > 400000  
 
