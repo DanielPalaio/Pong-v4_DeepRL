@@ -90,3 +90,46 @@ Average score of 17 over 100 consecutive trials
 </p>
 
 > **Network model used for testing:** 'saved_networks/dqn_model10' ('tf' model, also available in .h5)  
+
+# Dueling DQN
+<p align="center">
+  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109340340-cc9d8180-7860-11eb-9011-1ea05ef7fc75.png">
+</p>
+
+<table>
+<tr><th> Train </th><th> Test </th></tr>
+<tr><td>
+
+| Parameter | Value |
+|--|--|
+| Number of episodes | 300 |
+| Learning rate  | 0.0001 |
+| Discount Factor | 0.99 |
+| Epsilon | 1.0 |
+| Batch size | 32 |
+| TargetNet update rate (steps) | 1000 |
+| Actions (Pong-v4 env) | 6 |
+| States (Pong-v4 env) | (4, 80, 80) |
+
+</td><td>
+
+| Parameter | Value |
+|--|--|
+| Number of episodes | 100 |
+| Epsilon | 0.01 |
+| Actions (Pong-v4 env) | 6 |
+| States (Pong-v4 env) | (4, 80, 80) |
+
+</td></tr> </table>
+
+<p align="center">
+  <img src="DuelingDQN/Pong_Train.png" width="400" height="250" />
+  <img src="DuelingDQN/Pong_Test.png" width="400" height="250"/>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79323290/109398989-e9f14f00-7937-11eb-8698-ec4bb82dcde7.gif" width="400" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109398988-e9f14f00-7937-11eb-9519-387642b61489.gif" width="400" height="250" />
+</p>
+
+> **Network model used for testing:** 'saved_networks/duelingdqn_model30' ('tf' model, also available in .h5)  
