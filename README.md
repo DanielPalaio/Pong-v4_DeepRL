@@ -128,8 +128,8 @@ Average score of 17 over 100 consecutive trials
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/79323290/109398989-e9f14f00-7937-11eb-8698-ec4bb82dcde7.gif" width="400" height="250" />
-  <img src="https://user-images.githubusercontent.com/79323290/109398988-e9f14f00-7937-11eb-9519-387642b61489.gif" width="400" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109974887-f0921480-7cf1-11eb-9002-81eb134109ef.gif" width="280" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109974884-eff97e00-7cf1-11eb-82aa-c4c468cb9843.gif" width="280" height="250" />
 </p>
 
 > **Network model used for testing:** 'saved_networks/duelingdqn_model30' ('tf' model, also available in .h5)  
