@@ -48,10 +48,12 @@ Episode length > 400000
 **Solved Requirement:**<br />
 Average score of 17 over 100 consecutive trials
 
-# Deep Q-Network (DQN)
+# Deep Q-Learning framework
 <p align="center">
-  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109340337-cb6c5480-7860-11eb-9411-42b8e0d5941d.png">
+  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/115233659-19d6fa80-a110-11eb-8c68-09d365a54676.png">
 </p>
+
+# Deep Q-Network (DQN)
 
 <table>
 <tr><th> Train </th><th> Test </th></tr>
@@ -92,9 +94,6 @@ Average score of 17 over 100 consecutive trials
 > **Network model used for testing:** 'saved_networks/dqn_model10' ('tf' model, also available in .h5)  
 
 # Dueling DQN
-<p align="center">
-  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/109340340-cc9d8180-7860-11eb-9011-1ea05ef7fc75.png">
-</p>
 
 <table>
 <tr><th> Train </th><th> Test </th></tr>
@@ -133,3 +132,31 @@ Average score of 17 over 100 consecutive trials
 </p>
 
 > **Network model used for testing:** 'saved_networks/duelingdqn_model30' ('tf' model, also available in .h5)  
+
+# Dueling Double DQN (D3QN)
+
+<table>
+<tr><th> Train </th><th> Test </th></tr>
+<tr><td>
+
+| Parameter | Value |
+|--|--|
+| Number of episodes | 300 |
+| Learning rate  | 0.0001 |
+| Discount Factor | 0.99 |
+| Epsilon | 1.0 |
+| Batch size | 32 |
+| TargetNet update rate (steps) | 1000 |
+| Actions (Pong-v4 env) | 6 |
+| States (Pong-v4 env) | (4, 80, 80) |
+
+</td><td>
+
+| Parameter | Value |
+|--|--|
+| Number of episodes | 100 |
+| Epsilon | 0.01 |
+| Actions (Pong-v4 env) | 6 |
+| States (Pong-v4 env) | (4, 80, 80) |
+
+</td></tr> </table>
