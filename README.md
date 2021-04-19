@@ -141,7 +141,7 @@ Average score of 17 over 100 consecutive trials
 
 | Parameter | Value |
 |--|--|
-| Number of episodes | 300 |
+| Number of episodes | 400 |
 | Learning rate  | 0.0001 |
 | Discount Factor | 0.99 |
 | Epsilon | 1.0 |
@@ -160,3 +160,15 @@ Average score of 17 over 100 consecutive trials
 | States (Pong-v4 env) | (4, 80, 80) |
 
 </td></tr> </table>
+
+<p align="center">
+  <img src="D3QN/Pong_Train.png" width="400" height="250" />
+  <img src="D3QN/Pong_Test.png" width="400" height="250"/>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/79323290/115236091-db8f0a80-a112-11eb-9221-3491f153fd37.gif" width="280" height="250" />
+  <img src="https://user-images.githubusercontent.com/79323290/109825719-ff18f700-7c31-11eb-846b-534b43cc69a7.gif" width="280" height="250" />
+</p>
+
+> **Network model used for testing:** 'saved_networks/d3qn_model50' ('tf' model, also available in .h5)  
