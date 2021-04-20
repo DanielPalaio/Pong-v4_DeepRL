@@ -48,7 +48,7 @@ Episode length > 400000
 **Solved Requirement:**<br />
 Average score of 17 over 100 consecutive trials  
 
-# Deep Q-Network (DQN)
+## Deep Q-Network (DQN)
 
 <table>
 <tr><th> Train </th><th> Test </th></tr>
