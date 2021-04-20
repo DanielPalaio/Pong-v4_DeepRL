@@ -46,12 +46,7 @@ Player reaches a score of 21
 Episode length > 400000  
 
 **Solved Requirement:**<br />
-Average score of 17 over 100 consecutive trials
-
-## Deep Q-Learning framework
-<p align="center">
-  <img width="804" height="415" src="https://user-images.githubusercontent.com/79323290/115233659-19d6fa80-a110-11eb-8c68-09d365a54676.png">
-</p>
+Average score of 17 over 100 consecutive trials  
 
 # Deep Q-Network (DQN)
 
