@@ -1,5 +1,4 @@
 # OpenAI Pong-v4 DeepRL-based solutions
-Using Deep Q-Network (DQN), Dueling DQN, and Dueling Double DQN (D3QN)  
 
 Investigation under the development of the master thesis "DeepRL-based Motion Planning for Indoor Mobile Robot Navigation" @ Institute of Systems and Robotics - University of Coimbra (ISR-UC) 
 
@@ -14,15 +13,15 @@ Python Environment | Anaconda
 Packages | requirements.txt
 
 **To setup Pycharm + Anaconda + GPU, consult the setup file [here](setup.txt)**.  
-**To import the required packages ([requirements.txt](DQN/requirements.txt)), download the file to the project folder and type the following instruction in the project environment terminal:**  
+**To import the required packages ([requirements.txt](DQN/requirements.txt)), download the file into the project folder and type the following instruction in the project environment terminal:**  
 > pip install -r requirements.txt
 
 ## :warning: **WARNING** :warning:  
-The training process generates a [.txt file](DQN/saved_networks.txt) that tracks the network models (in 'tf' and .h5 formats) that achieved the solved requirement of the environment. Additionally, an overview image (graph) of the training procedure is created.   
+The training process generates a [.txt file](DQN/saved_networks.txt) that track the network models (in 'tf' and .h5 formats) that achieve the solved requirement of the environment. Additionally, an overview image (graph) of the training procedure is created.   
 To perform several training procedures, the .txt, .png, and directory names must be change. Otherwise, the information of previous training models will get overwritten, and therefore lost.  
 
 Regarding testing the saved network models, if using the .h5 model, a 5 episode training is required to initialize/build the keras.model network. Thus, the warnings above mentioned are also appliable to this situation.   
-Loading the saved model in 'tf' is the recommended option. After finishing the testing, an overview image (graph) of the training procedure is also generated.   
+Loading the saved model in 'tf' is the recommended option. After finishing the testing, an overview image (graph) of the training procedure is also generated.
 
 ## OpenAI Atari Pong-v4
 **Actions:**<br />
