@@ -7,9 +7,8 @@ Module | Software/Hardware
 ------------- | -------------
 Python IDE | Pycharm
 Deep Learning library | Tensorflow + Keras
-GPU | GeForce MX 250
+GPU | GeForce GeForce GTX 1060
 Interpreter | Python 3.8
-Python Environment | Anaconda
 Packages | requirements.txt
 
 **To setup Pycharm + Anaconda + GPU, consult the setup file [here](setup.txt)**.  
@@ -61,8 +60,8 @@ Average score of 17 over 100 consecutive trials
 | Epsilon | 1.0 |
 | Batch size | 32 |
 | TargetNet update rate (steps) | 1000 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td><td>
 
@@ -70,8 +69,8 @@ Average score of 17 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td></tr> </table>
 
@@ -101,8 +100,8 @@ Average score of 17 over 100 consecutive trials
 | Epsilon | 1.0 |
 | Batch size | 32 |
 | TargetNet update rate (steps) | 1000 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td><td>
 
@@ -110,8 +109,8 @@ Average score of 17 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td></tr> </table>
 
@@ -141,8 +140,8 @@ Average score of 17 over 100 consecutive trials
 | Epsilon | 1.0 |
 | Batch size | 32 |
 | TargetNet update rate (steps) | 1000 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td><td>
 
@@ -150,8 +149,8 @@ Average score of 17 over 100 consecutive trials
 |--|--|
 | Number of episodes | 100 |
 | Epsilon | 0.01 |
-| Actions (Pong-v4 env) | 6 |
-| States (Pong-v4 env) | (4, 80, 80) |
+| Actions | 6 |
+| States | (4, 80, 80) |
 
 </td></tr> </table>
 
